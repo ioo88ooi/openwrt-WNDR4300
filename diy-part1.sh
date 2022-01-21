@@ -17,5 +17,5 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #git clone https://github.com/MrH723/openwrt-packages.git package/openwrt-packages
-echo 'src-git small-package https://github.com/kenzok8/small-package' >>feeds.conf.default
+git clone https://github.com/kenzok8/small-package.git package/small-package
 echo 'src-git openappfilter https://github.com/destan19/OpenAppFilter' >>feeds.conf.default
