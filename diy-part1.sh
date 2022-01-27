@@ -11,11 +11,12 @@
 #
 
 # Uncomment a feed source
-#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git OpenAppFilter https://github.com/destan19/OpenAppFilter' >>feeds.conf.default
+#git clone https://github.com/fw876/helloworld package/lean/helloworld
 #git clone https://github.com/MrH723/openwrt-packages.git package/openwrt-packages
-git clone https://github.com/kenzok8/small-package.git package/small-package
-echo 'src-git openappfilter https://github.com/destan19/OpenAppFilter' >>feeds.conf.default
+#echo 'src-git package https://github.com/MrH723/openwrt-packages.git package/openwrt-packages' >>feeds.conf.default
